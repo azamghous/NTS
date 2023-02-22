@@ -101,7 +101,7 @@ a.nav-link{
         }
         .foot{
             font-size: 14px;
-            padding: 25px;
+            padding: 10px;
             margin-top: 10px;
             background-color:lightgray;
         }
@@ -121,5 +121,11 @@ a.nav-link{
         .card img{
             height: 260px;
         }
+        a.navbar-brand{
+            padding-left:0px;
+            font-size: 10px;
+        }
+        .navbar{
+            height: 55px;
         
         }
