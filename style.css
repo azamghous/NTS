@@ -1,0 +1,125 @@
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+ body{
+    background-color: #f2f2f2;
+    color: #000;
+    margin: 0;
+    padding: 0;
+ }
+
+ a.dropdown-item{
+    color:#000
+ }
+
+ .ntu{
+    font-family: 'Abril Fatface', cursive;
+ }
+.slider img{
+    height: 550px;
+}
+
+.card{
+    height: 400px;
+    margin-top: 15px;
+}
+.card img{
+    height: 300px;
+}
+.foot{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color:lightgrey;
+}
+.navbar{
+    background-color: brown;
+    height: 100px;
+    color: #fff;
+    font-weight: 400;
+}
+a.nav-link {
+    color: #fff;
+}
+
+a.navbar-brand{
+    padding-left: 50px;
+    font-size: 30px;
+}
+.card h6:hover{
+color: red;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.offcanvas-body{
+    background-color: brown;
+    color: #fff;
+}
+.offcanvas-header{
+    background-color: brown;
+}
+ .row h1{
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}
+a.nav-link.dropdown-toggle:hover{
+    color: red;
+} 
+a.nav-link.dropdown-toggle {
+    font-weight: bold;
+}
+a.dropdown-item:hover{
+    color: red;
+}
+a.dropdown-item{
+    font-weight: bold;
+}
+a.nav-link:hover{
+    color: red;
+}
+a.nav-link{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+    img.d-block.w-100 {
+        height: 300px;
+    }
+    }        
+    @media only screen and (max-width: 780px) {
+
+        img.d-block.w-100 {
+            height: 200px;
+        }
+        a.navbar-brand img{
+            height:30px;
+            padding-left: 0px;
+            padding-right: 0;
+            margin-right: 0;
+        }
+        .foot{
+            font-size: 14px;
+            padding: 25px;
+            margin-top: 10px;
+            background-color:lightgray;
+        }
+    
+        .d-flex{
+            padding-right: 0px;
+            width: 100%;
+            height: 40px;
+        }
+        .d-flex input{
+            font-size: 12px;
+        }
+        .card{
+            height: 350px;
+            margin-top: 10px;
+        }
+        .card img{
+            height: 260px;
+        }
+        
+        }
